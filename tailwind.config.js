@@ -2,7 +2,15 @@
 export default {
   // got his from here btw - https://gist.githubusercontent.com/hassnian/a8ef7f243dcc933887b31af77e73df29/raw/74938c12f824007d5ff0fa1ac23cc5b5bedfb2c5/tailwind.config.js
 
-  content: [],
+  content: [
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './app.vue',
+    './app/**/*.{js,vue,ts}',
+    './error.vue',
+  ],
   darkMode: 'class',
   theme: {
     screens: {
