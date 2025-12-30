@@ -1,7 +1,5 @@
 <template>
-  <div class="flex flex-col items-center bg-red-500 p-3 min-h-screen">
-    Hi
-  </div>
+    <img class="rounded-[200px] h-[80px] md:h-[100px] lg:h-[110px]" src="../assets/image 1.png" alt="" srcset="">
 </template>
 <script setup>
 </script>
