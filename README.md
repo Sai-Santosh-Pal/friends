@@ -1,8 +1,16 @@
-# Nuxt Minimal Starter
+# Friends
+
+## About
+- Its made in Nuxt.js
+- Initially i started off with Nuxt 4, but due to lack of resources i switched to Nuxt 3
+- In the start, i thought to build a social media app but due to time constraints i switched to the landing page
+- I designed and made the whole landing page on my own
+- I have implemented all basic things like props and components stuff
+
+## Installation
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
+### Setup
 
 Make sure to install dependencies:
 
@@ -19,8 +27,7 @@ yarn install
 # bun
 bun install
 ```
-
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -38,7 +45,7 @@ yarn dev
 bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
