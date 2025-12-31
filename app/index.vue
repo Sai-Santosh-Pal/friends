@@ -24,30 +24,35 @@
           Talk With People.<br>
           Not Show Off.
         </p>
-        <p class="text-center w-[80%] mt-5 text-white tracking-tighter">
-          We believe in making true conversations with the people you want to be. <br> Challenge your friends, Start streaks, Build relations with the people you love - the people you coud call friends!
+        <p class="text-center mt-5 text-white tracking-tighter">
+          We believe in making true conversations with the people you love. <br> Challenge your friends, Start streaks, Build Relations <br> with the people you love - the people you coud call friends!
         </p>
       </div>
     </div>
-    <div class="h-[50vh] w-[100vw] flex items-center flex-col justify-center bg-white tracking-tighter">
-        <div class="flex flex-row w-[80vw] justify-between">
-          <div class="left ">
-            <p class="text-black font-black text-4xl">
-              Waitlist On
-            </p>
-          </div>
-          <div class="right">
-            <p class="text-black">
-              hi
-            </p>
-          </div>
-        </div>
+    <div class="text-black h-[50vh] w-[100vw] flex items-center flex-col justify-center bg-white tracking-tighter">
+        <p class="text-black text-4xl lg:text-6xl md:text-5xl font-bold tracking-tighter">Waitlist On.</p>
+        <p class="text-center w-[80%] mt-2 text-gray-900 tracking-tighter">
+          We believe in making true conversations with the people you want to be. <br> Challenge your friends, Start streaks, Build relations with the people you love - the people you coud call friends!
+        </p>
+        <form class="mt-4 flex flex-col w-[80vw] items-center" action="https://formspree.io/f/xykyrrkk" method="post">
+
+          <label class="w-full">
+            <p class="text-stone-500 text-sm mb-[-25px]">Email</p><br>
+            <input class="w-full outline-none py-[3px] px-1 bg-white border-[1px] border-stone-500" type="email" name="email" id="">
+          </label>
+
+          <label class="mt-3 w-full">
+            <p class="text-stone-500 text-sm mb-[-25px]">Message/Suggestion</p><br>
+            <textarea class="w-full outline-none py-[3px] px-1 resize-none bg-white border-[1px] border-stone-500" name="message" id=""></textarea>
+          </label>
+          <Buttons class="mt-4 bg-black text-white cursor-pointer" @click="submitForm" text="Submit" />
+        </form>
     </div>
   </div>
 </template>
 <script setup>
 const darkMode = ref(true)
-import Navbar from '~/components/Navbar.vue';
+import Navbar from '~/components/Navbar.vue';tosh
 import Face from '../components/Face.vue';
 import Buttons from '~/components/Buttons.vue';
 import image1 from '~/assets/image 1.png';
