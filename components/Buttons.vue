@@ -11,5 +11,6 @@
     const emit = defineEmits(['click'])
     const emitSubmit = () => {
         emit('click')
+        console.log("submitted")
     }
 </script>
