@@ -29,7 +29,7 @@
         </p>
       </div>
     </div>
-    <div id="where" class="text-black py-7 h-[55vh] w-[100vw] flex items-center flex-col justify-center bg-white tracking-tighter">
+    <div id="where" class="text-black py-7 h-[100vh] w-[100vw] flex items-center flex-col justify-center bg-white tracking-tighter">
         <p class="text-black text-4xl lg:text-6xl md:text-5xl font-bold tracking-tighter">Waitlist On.</p>
         <p class="text-center w-[80%] mt-2 text-gray-900 tracking-tighter">
           Dump social media. Turn to Friends today<br> Challenge your friends, Start streaks, Build relations <br> with the people you love - the people you coud call friends!
